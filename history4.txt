@@ -1,0 +1,29 @@
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Adam Yates\",\"age\":\"31\",\"pointstotal\":0,\"tours\":[{\"stageoneminutes\":262.5,\"stageonepoints\":1}]}"
+{"name":"Adam Yates","age":31,"pointstotal":0,"tours":[{"stageoneminutes":262.5,"stageonepoints":1,"_id":"65dbc55c801a1ef3ceb47b56"}],"_id":"65dbc55c801a1ef3ceb47b55","__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Adam Yates\",\"age\":\"31\",\"pointstotal\":0,\"tours\":[{\"stageoneminutes\":262.5,\"stageonepoints\":0}]}"
+{"name":"Adam Yates","age":31,"pointstotal":0,"tours":[{"stageoneminutes":262.5,"stageonepoints":0,"_id":"65dbc5d8801a1ef3ceb47b59"}],"_id":"65dbc5d8801a1ef3ceb47b58","__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Adam Yates\",\"age\":\"31\",\"pointstotal\":1,\"tours\":[{\"stageoneminutes\":262.5,\"stageonepoints\":1}]}"
+{"name":"Adam Yates","age":31,"pointstotal":1,"tours":[{"stageoneminutes":262.5,"stageonepoints":1,"_id":"65dbc6d7801a1ef3ceb47b5c"}],"_id":"65dbc6d7801a1ef3ceb47b5b","__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Simon Yates\",\"age\":\"31\",\"pointstotal\":0,\"tours\":[{\"stageoneminutes\":262.5,\"stageonepoints\":0}]}"
+{"name":"Simon Yates","age":31,"pointstotal":0,"tours":[{"stageoneminutes":262.5,"stageonepoints":0,"_id":"65dbc6f1801a1ef3ceb47b5f"}],"_id":"65dbc6f1801a1ef3ceb47b5e","__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Tadej Pogacar\",\"age\":\"31\",\"pointstotal\":0,\"tours\":[{\"stageoneminutes\":263,\"stageonepoints\":0}]}"
+{"name":"Tadej Pogacar","age":31,"pointstotal":0,"tours":[{"stageoneminutes":263,"stageonepoints":0,"_id":"65dbc718801a1ef3ceb47b62"}],"_id":"65dbc718801a1ef3ceb47b61","__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request DELETE http://localhost:8080/tourapi/cyclists/65dbc718801a1ef3ceb47b61
+{"_id":"65dbc718801a1ef3ceb47b61","name":"Tadej Pogacar","age":31,"pointstotal":0,"tours":[{"stageoneminutes":263,"stageonepoints":0,"_id":"65dbc718801a1ef3ceb47b62"}],"__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Tadej Pogacar\",\"age\":\"26\",\"pointstotal\":0,\"tours\":[{\"stageoneminutes\":263,\"stageonepoints\":0}]}"
+{"name":"Tadej Pogacar","age":26,"pointstotal":0,"tours":[{"stageoneminutes":263,"stageonepoints":0,"_id":"65dbc752801a1ef3ceb47b67"}],"_id":"65dbc752801a1ef3ceb47b66","__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Thibaut Pinot\",\"age\":\"35\",\"pointstotal\":0,\"tours\":[{\"stageoneminutes\":263,\"stageonepoints\":0}]}"
+{"name":"Thibaut Pinot","age":35,"pointstotal":0,"tours":[{"stageoneminutes":263,"stageonepoints":0,"_id":"65dbc7ad801a1ef3ceb47b6a"}],"_id":"65dbc7ad801a1ef3ceb47b69","__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Michael Woods\",\"age\":\"38\",\"pointstotal\":0,\"tours\":[{\"stageoneminutes\":263,\"stageonepoints\":0}]}"
+{"name":"Michael Woods","age":38,"pointstotal":0,"tours":[{"stageoneminutes":263,"stageonepoints":0,"_id":"65dbc814801a1ef3ceb47b6d"}],"_id":"65dbc814801a1ef3ceb47b6c","__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Victor Lafay\",\"age\":\"29\",\"pointstotal\":0,\"tours\":[{\"stageoneminutes\":263,\"stageonepoints\":0}]}"
+{"name":"Victor Lafay","age":29,"pointstotal":0,"tours":[{"stageoneminutes":263,"stageonepoints":0,"_id":"65dbc8d1801a1ef3ceb47b70"}],"_id":"65dbc8d1801a1ef3ceb47b6f","__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Jai Hindley\",\"age\":\"29\",\"pointstotal\":0,\"tours\":[{\"stageoneminutes\":263,\"stageonepoints\":0}]}"
+{"name":"Jai Hindley","age":29,"pointstotal":0,"tours":[{"stageoneminutes":263,"stageonepoints":0,"_id":"65dbc90a801a1ef3ceb47b73"}],"_id":"65dbc90a801a1ef3ceb47b72","__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Skjelmose Mattias Jensen\",\"age\":\"24\",\"pointstotal\":0,\"tours\":[{\"stageoneminutes\":263,\"stageonepoints\":0}]}"
+{"name":"Skjelmose Mattias Jensen","age":24,"pointstotal":0,"tours":[{"stageoneminutes":263,"stageonepoints":0,"_id":"65dbc94b801a1ef3ceb47b76"}],"_id":"65dbc94b801a1ef3ceb47b75","__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Jonas Vingegaard\",\"age\":\"28\",\"pointstotal\":0,\"tours\":[{\"stageoneminutes\":263,\"stageonepoints\":0}]}"
+{"name":"Jonas Vingegaard","age":28,"pointstotal":0,"tours":[{"stageoneminutes":263,"stageonepoints":0,"_id":"65dbc98f801a1ef3ceb47b79"}],"_id":"65dbc98f801a1ef3ceb47b78","__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"David Gaudu\",\"age\":\"28\",\"pointstotal\":0,\"tours\":[{\"stageoneminutes\":263,\"stageonepoints\":0}]}"
+{"name":"David Gaudu","age":28,"pointstotal":0,"tours":[{"stageoneminutes":263,"stageonepoints":0,"_id":"65dbc9b1801a1ef3ceb47b7c"}],"_id":"65dbc9b1801a1ef3ceb47b7b","__v":0}
+C:\Users\ampshock>

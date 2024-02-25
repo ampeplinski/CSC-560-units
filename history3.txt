@@ -1,0 +1,414 @@
+Microsoft Windows [Version 10.0.19045.4046]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\ampshock>C:\Users\ampshock>curl --header "Content-Type: application/json" --request PUT --data "{\"name\":\"Lance\"}" http://localhost:8080/tourapi/tours/65d21af95e94e9c159255280
+'C:\Users\ampshock' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request PUT --data "{\"name\":\"Lance\"}" http://localhost:8080/tourapi/tours/65d21af95e94e9c159255280
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>ReferenceError: _id is not defined<br> &nbsp; &nbsp;at C:\MongoDB\bin\MERN\SecondRest\tourController.js:50:27<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\layer.js:95:5)<br> &nbsp; &nbsp;at next (C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\route.js:144:13)<br> &nbsp; &nbsp;at Route.dispatch (C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\route.js:114:3)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\layer.js:95:5)<br> &nbsp; &nbsp;at C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\index.js:284:15<br> &nbsp; &nbsp;at param (C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\index.js:365:14)<br> &nbsp; &nbsp;at param (C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\index.js:376:14)<br> &nbsp; &nbsp;at Function.process_params (C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\index.js:421:3)<br> &nbsp; &nbsp;at next (C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\index.js:280:10)</pre>
+</body>
+</html>
+
+C:\Users\ampshock>curl -X PUT --header "Content-Type: application/json" --data "{\"name\":\"Lance\"}" http://localhost:8080/tourapi/tours/65d21af95e94e9c159255280
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>ReferenceError: _id is not defined<br> &nbsp; &nbsp;at C:\MongoDB\bin\MERN\SecondRest\tourController.js:50:27<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\layer.js:95:5)<br> &nbsp; &nbsp;at next (C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\route.js:144:13)<br> &nbsp; &nbsp;at Route.dispatch (C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\route.js:114:3)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\layer.js:95:5)<br> &nbsp; &nbsp;at C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\index.js:284:15<br> &nbsp; &nbsp;at param (C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\index.js:365:14)<br> &nbsp; &nbsp;at param (C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\index.js:376:14)<br> &nbsp; &nbsp;at Function.process_params (C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\index.js:421:3)<br> &nbsp; &nbsp;at next (C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\index.js:280:10)</pre>
+</body>
+</html>
+
+C:\Users\ampshock>curl -X PUT --header "Content-Type: application/json" --data "{\"name\":\"Lance\"}" http://localhost:8080/tourapi/tours/65d21af95e94e9c159255280
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>ReferenceError: product is not defined<br> &nbsp; &nbsp;at C:\MongoDB\bin\MERN\SecondRest\tourController.js:50:53<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\layer.js:95:5)<br> &nbsp; &nbsp;at next (C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\route.js:144:13)<br> &nbsp; &nbsp;at Route.dispatch (C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\route.js:114:3)<br> &nbsp; &nbsp;at Layer.handle [as handle_request] (C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\layer.js:95:5)<br> &nbsp; &nbsp;at C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\index.js:284:15<br> &nbsp; &nbsp;at param (C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\index.js:365:14)<br> &nbsp; &nbsp;at param (C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\index.js:376:14)<br> &nbsp; &nbsp;at Function.process_params (C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\index.js:421:3)<br> &nbsp; &nbsp;at next (C:\MongoDB\bin\MERN\SecondRest\node_modules\express\lib\router\index.js:280:10)</pre>
+</body>
+</html>
+
+C:\Users\ampshock>curl -X PUT --header "Content-Type: application/json" --data "{\"name\":\"Lance\"}" http://localhost:8080/tourapi/tours/65d21af95e94e9c159255280
+Tour Updated!
+C:\Users\ampshock>curl -X DELETE --header "Content-Type: application/json" --data http://localhost:8080/tourapi/tours/65d21af95e94e9c159255280
+curl: (2) no URL specified
+curl: try 'curl --help' for more information
+
+C:\Users\ampshock>curl -X DELETE --header "Content-Type: application/json" http://localhost:8080/tourapi/tours/65d21af95e94e9c159255280
+curl: (56) Recv failure: Connection was reset
+
+C:\Users\ampshock>curl -X DELETE --header "Content-Type: application/json" http://localhost:8080/tourapi/tours/65d21af95e94e9c159255280
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET --data "{\"name\":\"Lance\"}" http://localhost:8080/tourapi/tours/
+[{"_id":"65d21a515e94e9c15925527e","__v":0}]
+C:\Users\ampshock>curl -X POST --header "Content-Type: application/json" --data "{\"name":\"Lance\",\"price\":\"7\"}http://localhost:8080/tourapi/tours/
+curl: (2) no URL specified
+curl: try 'curl --help' for more information
+
+C:\Users\ampshock>curl -X POST --header "Content-Type: application/json" --data "{\"name\":\"Lance\",\"price\":\"7\"} http://localhost:8080/tourapi/tours/
+curl: (2) no URL specified
+curl: try 'curl --help' for more information
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --data --request POST "{\"name\":\"Lance\",\"price\":\"7\"} http://localhost:8080/tourapi/tours/
+curl: (6) Could not resolve host: POST
+curl: (3) URL rejected: Malformed input to a URL function
+curl: (3) URL rejected: Malformed input to a URL function
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST --data "{\"name\":\"Lance\",\"price\":\"7\"} http://localhost:8080/tourapi/tours/
+curl: (2) no URL specified
+curl: try 'curl --help' for more information
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/tours/--data "{\"name\":\"Lance\",\"price\":\"7\"}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /tourapi/tours/--data</pre>
+</body>
+</html>
+curl: (3) URL rejected: Port number was not a decimal number between 0 and 65535
+curl: (3) URL rejected: Port number was not a decimal number between 0 and 65535
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/tours/ --data "{\"name\":\"Lance\",\"price\":\"7\"}
+{"name":"Lance","price":7,"_id":"65db4c691eb9b931b3181577","__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/tours/
+[{"_id":"65d21a515e94e9c15925527e","__v":0},{"_id":"65db4c691eb9b931b3181577","name":"Lance","price":7,"__v":0}]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request PUT http://localhost:8080/tourapi/tours/ --data "{\"name\":\"Lance\",\"price\":\"8\"}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot PUT /tourapi/tours/</pre>
+</body>
+</html>
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request PUT http://localhost:8080/tourapi/tours/65db4c691eb9b931b3181577 --data "{\"name\":\"Lance\",\"price\":\"8\"}
+Tour Updated!
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/tours/
+[{"_id":"65d21a515e94e9c15925527e","__v":0},{"_id":"65db4c691eb9b931b3181577","name":"Lance","price":8,"__v":0}]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request DELETE http://localhost:8080/tourapi/tours/65db4c691eb9b931b3181577
+{"_id":"65db4c691eb9b931b3181577","name":"Lance","price":8,"__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/tours/
+[{"_id":"65d21a515e94e9c15925527e","__v":0}]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/tours/--data "{\"name\":\"Lance\",\"price\":\"7\"}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /tourapi/tours/--data</pre>
+</body>
+</html>
+curl: (3) URL rejected: Port number was not a decimal number between 0 and 65535
+curl: (3) URL rejected: Port number was not a decimal number between 0 and 65535
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/tours/ --data "{\"name\":\"Lance\",\"price\":\"7\"}
+{"name":"Lance","price":7,"_id":"65db4d161eb9b931b318157e","__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/tours/
+[{"_id":"65d21a515e94e9c15925527e","__v":0},{"_id":"65db4d161eb9b931b318157e","name":"Lance","price":7,"__v":0}]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request PUT http://localhost:8080/tourapi/tours/65db4d161eb9b931b318157e --data "{\"name\":\"Lance\",\"price\":\"8\"}
+Tour Updated!
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request DELETE http://localhost:8080/tourapi/tours/65db4d161eb9b931b318157e
+{"_id":"65db4d161eb9b931b318157e","name":"Lance","price":8,"__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/tours/
+[{"_id":"65d21a515e94e9c15925527e","__v":0}]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/tours/ --data "{\"name\":\"Lance\",\"price\":\"7\"}
+{"name":"Lance","price":7,"_id":"65db4d6b92eec60922bbd92b","__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/tours/
+[{"_id":"65d21a515e94e9c15925527e","__v":0},{"_id":"65db4d6b92eec60922bbd92b","name":"Lance","price":7,"__v":0}]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request PUT http://localhost:8080/tourapi/tours/65db4d6b92eec60922bbd92b --data "{\"name\":\"Lance\",\"price\":\"8\"}
+Tour Updated!
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/tours/
+[{"_id":"65d21a515e94e9c15925527e","__v":0},{"_id":"65db4d6b92eec60922bbd92b","name":"Lance","price":8,"__v":0}]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request DELETE http://localhost:8080/tourapi/tours/65db4d6b92eec60922bbd92b
+{"_id":"65db4d6b92eec60922bbd92b","name":"Lance","price":8,"__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/tours/
+[{"_id":"65d21a515e94e9c15925527e","__v":0}]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/tours/
+[{"_id":"65d21a515e94e9c15925527e","__v":0}]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/cyclist/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /tourapi/cyclist/</pre>
+</body>
+</html>
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/cyclists/
+[]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/tours/ --data "{\"name\":\"Lance\",\"age\":\"29\"}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /tourapi/tours/</pre>
+</body>
+</html>
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Lance\",\"age\":\"29\"}
+{"name":"Lance","age":29,"tours":[],"_id":"65db5b37967352a80e6aec3e","__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/cyclists/
+[{"_id":"65db5b37967352a80e6aec3e","name":"Lance","age":29,"tours":[],"__v":0}]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request PUT http://localhost:8080/tourapi/cyclists/65db5b37967352a80e6aec3e --data "{\"name\":\"Lance\",\"age\":\"30\"}
+Cyclist Updated!
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/cyclists/
+[{"_id":"65db5b37967352a80e6aec3e","name":"Lance","age":29,"tours":[],"__v":0}]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/cyclists/
+[{"_id":"65db5b37967352a80e6aec3e","name":"Lance","age":29,"tours":[],"__v":0}]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request PUT http://localhost:8080/tourapi/cyclists/65db5b37967352a80e6aec3e --data "{\"name\":\"Lance\",\"age\":\"30\"}
+Cyclist Updated!
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/cyclists/
+[{"_id":"65db5b37967352a80e6aec3e","name":"Lance","age":29,"tours":[],"__v":0}]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/cyclists/
+[{"_id":"65db5b37967352a80e6aec3e","name":"Lance","age":29,"tours":[],"__v":0}]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request PUT http://localhost:8080/tourapi/cyclists/65db5b37967352a80e6aec3e --data "{\"name\":\"Lance\",\"age\":\"30\"}
+Cyclist Updated!
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/cyclists/
+[{"_id":"65db5b37967352a80e6aec3e","name":"Lance","age":30,"tours":[],"__v":0}]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request DELETE http://localhost:8080/tourapi/tours/65db5b37967352a80e6aec3e
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot DELETE /tourapi/tours/65db5b37967352a80e6aec3e</pre>
+</body>
+</html>
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request DELETE http://localhost:8080/tourapi/cyclists/65db5b37967352a80e6aec3e
+{"_id":"65db5b37967352a80e6aec3e","name":"Lance","age":30,"tours":[],"__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/cyclists/
+[]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Lance Armstrong\",\"age\":\"28\"}
+{"name":"Lance Armstrong","age":28,"tours":[],"_id":"65db5cb4373ea8773f75e107","__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/cyclists/
+[{"_id":"65db5cb4373ea8773f75e107","name":"Lance Armstrong","age":28,"tours":[],"__v":0}]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request PUT http://localhost:8080/tourapi/cyclists/65db5b37967352a80e6aec3e --data "{\"name\":\"Lance\",\"age\":\"29\"}
+Cyclist Updated!
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/cyclists/
+[{"_id":"65db5cb4373ea8773f75e107","name":"Lance Armstrong","age":28,"tours":[],"__v":0}]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request DELETE http://localhost:8080/tourapi/cyclists/65db5cb4373ea8773f75e107
+{"_id":"65db5cb4373ea8773f75e107","name":"Lance Armstrong","age":28,"tours":[],"__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/cyclists/
+[]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Lance\",\"age\":\"28\"}
+{"name":"Lance","age":28,"tours":[],"_id":"65db5d10373ea8773f75e10e","__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request DELETE http://localhost:8080/tourapi/cyclists/65db5d10373ea8773f75e10e
+{"_id":"65db5d10373ea8773f75e10e","name":"Lance","age":28,"tours":[],"__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/cyclists/
+[]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Lance Armstrong\",\"age\":\"28\"}
+{"name":"Lance Armstrong","age":28,"tours":[],"_id":"65db5d44373ea8773f75e112","__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/cyclists/
+[{"_id":"65db5d44373ea8773f75e112","name":"Lance Armstrong","age":28,"tours":[],"__v":0}]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request PUT http://localhost:8080/tourapi/cyclists/65db5d44373ea8773f75e112 --data "{\"name\":\"Lance\",\"age\":\"29\"}
+Cyclist Updated!
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/cyclists/
+[{"_id":"65db5d44373ea8773f75e112","name":"Lance","age":29,"tours":[],"__v":0}]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request DELETE http://localhost:8080/tourapi/cyclists/65db5d44373ea8773f75e112
+{"_id":"65db5d44373ea8773f75e112","name":"Lance","age":29,"tours":[],"__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/cyclists/
+[]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/cyclists/
+[]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Lance Armstrong\",\"age\":\"28\"}
+{"name":"Lance Armstrong","age":28,"tours":[],"_id":"65dbab5e3850ed0d4263ba66","__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/cyclists/
+[{"_id":"65dbab5e3850ed0d4263ba66","name":"Lance Armstrong","age":28,"tours":[],"__v":0}]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/youngestrider
+[{"_id":"65dbab5e3850ed0d4263ba66","name":"Lance Armstrong","age":28,"tours":[],"__v":0}]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"George Hincapie\",\"age\":\"27\"}
+{"name":"George Hincapie","age":27,"tours":[],"_id":"65dbacc51dfc68c525b74630","__v":0}
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request GET http://localhost:8080/tourapi/youngestrider
+[{"_id":"65dbacc51dfc68c525b74630","name":"George Hincapie","age":27,"tours":[],"__v":0}]
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Paolo Savoldelli\",\"age\":\"26\",\"tours\":[\"2005stage1time\":\"250\"]}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>SyntaxError: Expected &#39;,&#39; or &#39;]&#39; after array element in JSON at position 63<br> &nbsp; &nbsp;at JSON.parse (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at parse (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:92:19)<br> &nbsp; &nbsp;at C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\read.js:128:18<br> &nbsp; &nbsp;at AsyncResource.runInAsyncScope (node:async_hooks:206:9)<br> &nbsp; &nbsp;at invokeCallback (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:238:16)<br> &nbsp; &nbsp;at done (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:227:7)<br> &nbsp; &nbsp;at IncomingMessage.onEnd (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:287:7)<br> &nbsp; &nbsp;at IncomingMessage.emit (node:events:518:28)<br> &nbsp; &nbsp;at endReadableNT (node:internal/streams/readable:1696:12)<br> &nbsp; &nbsp;at process.processTicksAndRejections (node:internal/process/task_queues:82:21)</pre>
+</body>
+</html>
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Paolo Savoldelli\",\"age\":\"26\",\"tours\":[\"2005stage1time\":250]}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>SyntaxError: Expected &#39;,&#39; or &#39;]&#39; after array element in JSON at position 63<br> &nbsp; &nbsp;at JSON.parse (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at parse (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:92:19)<br> &nbsp; &nbsp;at C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\read.js:128:18<br> &nbsp; &nbsp;at AsyncResource.runInAsyncScope (node:async_hooks:206:9)<br> &nbsp; &nbsp;at invokeCallback (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:238:16)<br> &nbsp; &nbsp;at done (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:227:7)<br> &nbsp; &nbsp;at IncomingMessage.onEnd (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:287:7)<br> &nbsp; &nbsp;at IncomingMessage.emit (node:events:518:28)<br> &nbsp; &nbsp;at endReadableNT (node:internal/streams/readable:1696:12)<br> &nbsp; &nbsp;at process.processTicksAndRejections (node:internal/process/task_queues:82:21)</pre>
+</body>
+</html>
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Paolo Savoldelli\",\"age\":\"26\",\"tours\":\[\"2005stage1time\":250\]}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>SyntaxError: Unexpected token &#39;\&#39;, ...&quot;&quot;,&quot;tours&quot;:\[&quot;2005sta&quot;... is not valid JSON<br> &nbsp; &nbsp;at JSON.parse (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at parse (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:92:19)<br> &nbsp; &nbsp;at C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\read.js:128:18<br> &nbsp; &nbsp;at AsyncResource.runInAsyncScope (node:async_hooks:206:9)<br> &nbsp; &nbsp;at invokeCallback (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:238:16)<br> &nbsp; &nbsp;at done (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:227:7)<br> &nbsp; &nbsp;at IncomingMessage.onEnd (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:287:7)<br> &nbsp; &nbsp;at IncomingMessage.emit (node:events:518:28)<br> &nbsp; &nbsp;at endReadableNT (node:internal/streams/readable:1696:12)<br> &nbsp; &nbsp;at process.processTicksAndRejections (node:internal/process/task_queues:82:21)</pre>
+</body>
+</html>
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Paolo Savoldelli\",\"age\":\"26\",\"tours\":[\"2005stage1time\":250\]}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>SyntaxError: Expected &#39;,&#39; or &#39;]&#39; after array element in JSON at position 63<br> &nbsp; &nbsp;at JSON.parse (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at parse (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:92:19)<br> &nbsp; &nbsp;at C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\read.js:128:18<br> &nbsp; &nbsp;at AsyncResource.runInAsyncScope (node:async_hooks:206:9)<br> &nbsp; &nbsp;at invokeCallback (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:238:16)<br> &nbsp; &nbsp;at done (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:227:7)<br> &nbsp; &nbsp;at IncomingMessage.onEnd (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:287:7)<br> &nbsp; &nbsp;at IncomingMessage.emit (node:events:518:28)<br> &nbsp; &nbsp;at endReadableNT (node:internal/streams/readable:1696:12)<br> &nbsp; &nbsp;at process.processTicksAndRejections (node:internal/process/task_queues:82:21)</pre>
+</body>
+</html>
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Paolo Savoldelli\",\"age\":\"26\",\"tours\":[\"2005stage1time\":250]}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>SyntaxError: Expected &#39;,&#39; or &#39;]&#39; after array element in JSON at position 63<br> &nbsp; &nbsp;at JSON.parse (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at parse (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:92:19)<br> &nbsp; &nbsp;at C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\read.js:128:18<br> &nbsp; &nbsp;at AsyncResource.runInAsyncScope (node:async_hooks:206:9)<br> &nbsp; &nbsp;at invokeCallback (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:238:16)<br> &nbsp; &nbsp;at done (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:227:7)<br> &nbsp; &nbsp;at IncomingMessage.onEnd (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:287:7)<br> &nbsp; &nbsp;at IncomingMessage.emit (node:events:518:28)<br> &nbsp; &nbsp;at endReadableNT (node:internal/streams/readable:1696:12)<br> &nbsp; &nbsp;at process.processTicksAndRejections (node:internal/process/task_queues:82:21)</pre>
+</body>
+</html>
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Paolo Savoldelli\",\"age\":\"26\"\"tours\":[\"2005stage1time\":250]}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>SyntaxError: Expected &#39;,&#39; or &#39;}&#39; after property value in JSON at position 37<br> &nbsp; &nbsp;at JSON.parse (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at parse (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:92:19)<br> &nbsp; &nbsp;at C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\read.js:128:18<br> &nbsp; &nbsp;at AsyncResource.runInAsyncScope (node:async_hooks:206:9)<br> &nbsp; &nbsp;at invokeCallback (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:238:16)<br> &nbsp; &nbsp;at done (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:227:7)<br> &nbsp; &nbsp;at IncomingMessage.onEnd (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:287:7)<br> &nbsp; &nbsp;at IncomingMessage.emit (node:events:518:28)<br> &nbsp; &nbsp;at endReadableNT (node:internal/streams/readable:1696:12)<br> &nbsp; &nbsp;at process.processTicksAndRejections (node:internal/process/task_queues:82:21)</pre>
+</body>
+</html>
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Paolo Savoldelli\",\"age\":\"26\",\"tours\":[\"2005stage1time\":250]}"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>SyntaxError: Expected &#39;,&#39; or &#39;]&#39; after array element in JSON at position 63<br> &nbsp; &nbsp;at JSON.parse (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at parse (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:92:19)<br> &nbsp; &nbsp;at C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\read.js:128:18<br> &nbsp; &nbsp;at AsyncResource.runInAsyncScope (node:async_hooks:206:9)<br> &nbsp; &nbsp;at invokeCallback (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:238:16)<br> &nbsp; &nbsp;at done (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:227:7)<br> &nbsp; &nbsp;at IncomingMessage.onEnd (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:287:7)<br> &nbsp; &nbsp;at IncomingMessage.emit (node:events:518:28)<br> &nbsp; &nbsp;at endReadableNT (node:internal/streams/readable:1696:12)<br> &nbsp; &nbsp;at process.processTicksAndRejections (node:internal/process/task_queues:82:21)</pre>
+</body>
+</html>
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Paolo Savoldelli\",\"age\":\"26\",\"tours\":[\"2005stage1time\":\"250\"]}"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>SyntaxError: Expected &#39;,&#39; or &#39;]&#39; after array element in JSON at position 63<br> &nbsp; &nbsp;at JSON.parse (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at parse (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:92:19)<br> &nbsp; &nbsp;at C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\read.js:128:18<br> &nbsp; &nbsp;at AsyncResource.runInAsyncScope (node:async_hooks:206:9)<br> &nbsp; &nbsp;at invokeCallback (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:238:16)<br> &nbsp; &nbsp;at done (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:227:7)<br> &nbsp; &nbsp;at IncomingMessage.onEnd (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:287:7)<br> &nbsp; &nbsp;at IncomingMessage.emit (node:events:518:28)<br> &nbsp; &nbsp;at endReadableNT (node:internal/streams/readable:1696:12)<br> &nbsp; &nbsp;at process.processTicksAndRejections (node:internal/process/task_queues:82:21)</pre>
+</body>
+</html>
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Paolo Savoldelli\",\"age\":\"26\",\"tours\":\[\"2005stage1time\":\"250\"]}"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>SyntaxError: Unexpected token &#39;\&#39;, ...&quot;&quot;,&quot;tours&quot;:\[&quot;2005sta&quot;... is not valid JSON<br> &nbsp; &nbsp;at JSON.parse (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at parse (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:92:19)<br> &nbsp; &nbsp;at C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\read.js:128:18<br> &nbsp; &nbsp;at AsyncResource.runInAsyncScope (node:async_hooks:206:9)<br> &nbsp; &nbsp;at invokeCallback (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:238:16)<br> &nbsp; &nbsp;at done (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:227:7)<br> &nbsp; &nbsp;at IncomingMessage.onEnd (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:287:7)<br> &nbsp; &nbsp;at IncomingMessage.emit (node:events:518:28)<br> &nbsp; &nbsp;at endReadableNT (node:internal/streams/readable:1696:12)<br> &nbsp; &nbsp;at process.processTicksAndRejections (node:internal/process/task_queues:82:21)</pre>
+</body>
+</html>
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Paolo Savoldelli\",\"age\":\"26\",\"tours\":[\"2005stage1time\":\"250\"]}"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>SyntaxError: Expected &#39;,&#39; or &#39;]&#39; after array element in JSON at position 63<br> &nbsp; &nbsp;at JSON.parse (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at parse (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:92:19)<br> &nbsp; &nbsp;at C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\read.js:128:18<br> &nbsp; &nbsp;at AsyncResource.runInAsyncScope (node:async_hooks:206:9)<br> &nbsp; &nbsp;at invokeCallback (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:238:16)<br> &nbsp; &nbsp;at done (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:227:7)<br> &nbsp; &nbsp;at IncomingMessage.onEnd (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:287:7)<br> &nbsp; &nbsp;at IncomingMessage.emit (node:events:518:28)<br> &nbsp; &nbsp;at endReadableNT (node:internal/streams/readable:1696:12)<br> &nbsp; &nbsp;at process.processTicksAndRejections (node:internal/process/task_queues:82:21)</pre>
+</body>
+</html>
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Paolo Savoldelli\",\"age\":\"26\",\"tours\":[\"2005stage1time\":\"250\"}"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>SyntaxError: Expected &#39;,&#39; or &#39;]&#39; after array element in JSON at position 63<br> &nbsp; &nbsp;at JSON.parse (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at parse (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:92:19)<br> &nbsp; &nbsp;at C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\read.js:128:18<br> &nbsp; &nbsp;at AsyncResource.runInAsyncScope (node:async_hooks:206:9)<br> &nbsp; &nbsp;at invokeCallback (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:238:16)<br> &nbsp; &nbsp;at done (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:227:7)<br> &nbsp; &nbsp;at IncomingMessage.onEnd (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:287:7)<br> &nbsp; &nbsp;at IncomingMessage.emit (node:events:518:28)<br> &nbsp; &nbsp;at endReadableNT (node:internal/streams/readable:1696:12)<br> &nbsp; &nbsp;at process.processTicksAndRejections (node:internal/process/task_queues:82:21)</pre>
+</body>
+</html>
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Paolo Savoldelli\",\"age\":\"26\",\"tours\":\"2005stage1time\":\"250\"}"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>SyntaxError: Expected &#39;,&#39; or &#39;}&#39; after property value in JSON at position 62<br> &nbsp; &nbsp;at JSON.parse (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at parse (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:92:19)<br> &nbsp; &nbsp;at C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\read.js:128:18<br> &nbsp; &nbsp;at AsyncResource.runInAsyncScope (node:async_hooks:206:9)<br> &nbsp; &nbsp;at invokeCallback (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:238:16)<br> &nbsp; &nbsp;at done (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:227:7)<br> &nbsp; &nbsp;at IncomingMessage.onEnd (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:287:7)<br> &nbsp; &nbsp;at IncomingMessage.emit (node:events:518:28)<br> &nbsp; &nbsp;at endReadableNT (node:internal/streams/readable:1696:12)<br> &nbsp; &nbsp;at process.processTicksAndRejections (node:internal/process/task_queues:82:21)</pre>
+</body>
+</html>
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Paolo Savoldelli\",\"age\":\"26\",\"tours\"[\"2005stage1time\":\"250\"]}"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>SyntaxError: Unexpected token &#39;[&#39;, ...&quot;6&quot;,&quot;tours&quot;[&quot;2005stag&quot;... is not valid JSON<br> &nbsp; &nbsp;at JSON.parse (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at parse (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:92:19)<br> &nbsp; &nbsp;at C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\read.js:128:18<br> &nbsp; &nbsp;at AsyncResource.runInAsyncScope (node:async_hooks:206:9)<br> &nbsp; &nbsp;at invokeCallback (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:238:16)<br> &nbsp; &nbsp;at done (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:227:7)<br> &nbsp; &nbsp;at IncomingMessage.onEnd (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:287:7)<br> &nbsp; &nbsp;at IncomingMessage.emit (node:events:518:28)<br> &nbsp; &nbsp;at endReadableNT (node:internal/streams/readable:1696:12)<br> &nbsp; &nbsp;at process.processTicksAndRejections (node:internal/process/task_queues:82:21)</pre>
+</body>
+</html>
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Paolo Savoldelli\",\"age\":\"26\",\"tours\":\"2005stage1time\"}"
+curl: (56) Recv failure: Connection was reset
+
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST http://localhost:8080/tourapi/cyclists/ --data "{\"name\":\"Paolo Savoldelli\",\"age\":\"26\",\"tours\":\"stageoneminutes\"}"
+

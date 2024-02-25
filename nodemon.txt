@@ -1,0 +1,279 @@
+Microsoft Windows [Version 10.0.19045.3996]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\ampshock>npm -v
+10.2.4
+
+C:\Users\ampshock>node -v
+v20.11.0
+
+C:\Users\ampshock>mongo
+'mongo' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ampshock>mongo
+'mongo' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ampshock>mongodb
+'mongodb' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ampshock>cd ..
+
+C:\Users>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users>cd ..
+
+C:\>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\>dir
+ Volume in drive C has no label.
+ Volume Serial Number is CE4D-884B
+
+ Directory of C:\
+
+02/11/2024  04:08 PM    <DIR>          MongoDB
+12/07/2019  01:14 AM    <DIR>          PerfLogs
+02/11/2024  03:56 PM    <DIR>          Program Files
+02/11/2024  03:56 PM    <DIR>          Program Files (x86)
+02/11/2024  03:53 PM    <DIR>          Python312
+02/11/2024  03:24 PM    <DIR>          Users
+02/11/2024  03:52 PM    <DIR>          Windows
+               0 File(s)              0 bytes
+               7 Dir(s)  98,222,661,632 bytes free
+
+C:\>cd MongoDB
+
+C:\MongoDB>dir
+ Volume in drive C has no label.
+ Volume Serial Number is CE4D-884B
+
+ Directory of C:\MongoDB
+
+02/11/2024  04:08 PM    <DIR>          .
+02/11/2024  04:08 PM    <DIR>          ..
+02/11/2024  04:08 PM    <DIR>          bin
+02/11/2024  04:08 PM    <DIR>          data
+12/28/2023  09:49 PM            30,608 LICENSE-Community.txt
+02/11/2024  04:08 PM    <DIR>          log
+12/28/2023  09:49 PM            16,726 MPL-2
+12/28/2023  09:49 PM             1,978 README
+12/28/2023  09:50 PM           122,506 THIRD-PARTY-NOTICES
+               4 File(s)        171,818 bytes
+               5 Dir(s)  98,222,661,632 bytes free
+
+C:\MongoDB>cd bin
+
+C:\MongoDB\bin>dir
+ Volume in drive C has no label.
+ Volume Serial Number is CE4D-884B
+
+ Directory of C:\MongoDB\bin
+
+02/11/2024  04:08 PM    <DIR>          .
+02/11/2024  04:08 PM    <DIR>          ..
+12/28/2023  09:49 PM             1,558 InstallCompass.ps1
+02/11/2024  04:08 PM               492 mongod.cfg
+12/29/2023  12:10 AM        65,985,024 mongod.exe
+12/29/2023  12:10 AM     1,033,531,392 mongod.pdb
+12/29/2023  12:05 AM        39,877,120 mongos.exe
+12/29/2023  12:05 AM       586,993,664 mongos.pdb
+               6 File(s)  1,726,389,250 bytes
+               2 Dir(s)  98,221,981,696 bytes free
+
+C:\MongoDB\bin>mongod.exe -v
+{"t":{"$date":"2024-02-11T16:09:33.602-08:00"},"s":"I",  "c":"CONTROL",  "id":23285,   "ctx":"thread1","msg":"Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'"}
+{"t":{"$date":"2024-02-11T16:09:33.603-08:00"},"s":"I",  "c":"NETWORK",  "id":4915701, "ctx":"thread1","msg":"Initialized wire specification","attr":{"spec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":21},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":21},"outgoing":{"minWireVersion":6,"maxWireVersion":21},"isInternalClient":true}}}
+{"t":{"$date":"2024-02-11T16:09:34.548-08:00"},"s":"D1", "c":"CONTROL",  "id":22615,   "ctx":"thread1","msg":"Loading library: {toUtf8String_full_path_c_str}","attr":{"toUtf8String_full_path_c_str":"Schannel.dll"}}
+{"t":{"$date":"2024-02-11T16:09:34.550-08:00"},"s":"I",  "c":"NETWORK",  "id":4648602, "ctx":"thread1","msg":"Implicit TCP FastOpen in use."}
+{"t":{"$date":"2024-02-11T16:09:34.551-08:00"},"s":"I",  "c":"REPL",     "id":5123008, "ctx":"thread1","msg":"Successfully registered PrimaryOnlyService","attr":{"service":"TenantMigrationDonorService","namespace":"config.tenantMigrationDonors"}}
+{"t":{"$date":"2024-02-11T16:09:34.551-08:00"},"s":"I",  "c":"REPL",     "id":5123008, "ctx":"thread1","msg":"Successfully registered PrimaryOnlyService","attr":{"service":"TenantMigrationRecipientService","namespace":"config.tenantMigrationRecipients"}}
+{"t":{"$date":"2024-02-11T16:09:34.552-08:00"},"s":"I",  "c":"CONTROL",  "id":5945603, "ctx":"thread1","msg":"Multi threading initialized"}
+{"t":{"$date":"2024-02-11T16:09:34.552-08:00"},"s":"I",  "c":"TENANT_M", "id":7091600, "ctx":"thread1","msg":"Starting TenantMigrationAccessBlockerRegistry"}
+{"t":{"$date":"2024-02-11T16:09:34.553-08:00"},"s":"I",  "c":"CONTROL",  "id":4615611, "ctx":"initandlisten","msg":"MongoDB starting","attr":{"pid":3740,"port":27017,"dbPath":"C:/data/db/","architecture":"64-bit","host":"DESKTOP-2VQBLN1"}}
+{"t":{"$date":"2024-02-11T16:09:34.553-08:00"},"s":"I",  "c":"CONTROL",  "id":23398,   "ctx":"initandlisten","msg":"Target operating system minimum version","attr":{"targetMinOS":"Windows 7/Windows Server 2008 R2"}}
+{"t":{"$date":"2024-02-11T16:09:34.554-08:00"},"s":"I",  "c":"CONTROL",  "id":23403,   "ctx":"initandlisten","msg":"Build Info","attr":{"buildInfo":{"version":"7.0.5","gitVersion":"7809d71e84e314b497f282ea8aa06d7ded3eb205","modules":[],"allocator":"tcmalloc","environment":{"distmod":"windows","distarch":"x86_64","target_arch":"x86_64"}}}}
+{"t":{"$date":"2024-02-11T16:09:34.554-08:00"},"s":"I",  "c":"CONTROL",  "id":51765,   "ctx":"initandlisten","msg":"Operating System","attr":{"os":{"name":"Microsoft Windows 10","version":"10.0 (build 19045)"}}}
+{"t":{"$date":"2024-02-11T16:09:34.554-08:00"},"s":"I",  "c":"CONTROL",  "id":21951,   "ctx":"initandlisten","msg":"Options set by command line","attr":{"options":{"systemLog":{"verbosity":1}}}}
+{"t":{"$date":"2024-02-11T16:09:34.554-08:00"},"s":"D1", "c":"EXECUTOR", "id":23104,   "ctx":"OCSPManagerHTTP-0","msg":"Starting thread","attr":{"threadName":"OCSPManagerHTTP-0","poolName":"OCSPManagerHTTP"}}
+{"t":{"$date":"2024-02-11T16:09:34.555-08:00"},"s":"D1", "c":"ASSERT",   "id":23074,   "ctx":"initandlisten","msg":"User assertion","attr":{"error":"NonExistentPath: Data directory C:\\data\\db\\ not found. Create the missing directory or specify another path using (1) the --dbpath command line option, or (2) by adding the 'storage.dbPath' option in the configuration file.","file":"src\\mongo\\db\\storage\\storage_engine_init.cpp","line":344}}
+{"t":{"$date":"2024-02-11T16:09:34.556-08:00"},"s":"E",  "c":"CONTROL",  "id":20557,   "ctx":"initandlisten","msg":"DBException in initAndListen, terminating","attr":{"error":"NonExistentPath: Data directory C:\\data\\db\\ not found. Create the missing directory or specify another path using (1) the --dbpath command line option, or (2) by adding the 'storage.dbPath' option in the configuration file."}}
+{"t":{"$date":"2024-02-11T16:09:34.556-08:00"},"s":"I",  "c":"REPL",     "id":4784900, "ctx":"initandlisten","msg":"Stepping down the ReplicationCoordinator for shutdown","attr":{"waitTimeMillis":15000}}
+{"t":{"$date":"2024-02-11T16:09:34.557-08:00"},"s":"D1", "c":"ASSERT",   "id":23074,   "ctx":"initandlisten","msg":"User assertion","attr":{"error":"NotWritablePrimary: not primary so can't step down","file":"src\\mongo\\db\\repl\\replication_coordinator_impl.cpp","line":2809}}
+{"t":{"$date":"2024-02-11T16:09:34.558-08:00"},"s":"I",  "c":"REPL",     "id":4794602, "ctx":"initandlisten","msg":"Attempting to enter quiesce mode"}
+{"t":{"$date":"2024-02-11T16:09:34.559-08:00"},"s":"I",  "c":"-",        "id":6371601, "ctx":"initandlisten","msg":"Shutting down the FLE Crud thread pool"}
+{"t":{"$date":"2024-02-11T16:09:34.559-08:00"},"s":"I",  "c":"COMMAND",  "id":4784901, "ctx":"initandlisten","msg":"Shutting down the MirrorMaestro"}
+{"t":{"$date":"2024-02-11T16:09:34.559-08:00"},"s":"I",  "c":"SHARDING", "id":4784902, "ctx":"initandlisten","msg":"Shutting down the WaitForMajorityService"}
+{"t":{"$date":"2024-02-11T16:09:34.559-08:00"},"s":"I",  "c":"NETWORK",  "id":20562,   "ctx":"initandlisten","msg":"Shutdown: going to close listening sockets"}
+{"t":{"$date":"2024-02-11T16:09:34.559-08:00"},"s":"I",  "c":"NETWORK",  "id":4784905, "ctx":"initandlisten","msg":"Shutting down the global connection pool"}
+{"t":{"$date":"2024-02-11T16:09:34.560-08:00"},"s":"I",  "c":"CONTROL",  "id":4784906, "ctx":"initandlisten","msg":"Shutting down the FlowControlTicketholder"}
+{"t":{"$date":"2024-02-11T16:09:34.560-08:00"},"s":"I",  "c":"-",        "id":20520,   "ctx":"initandlisten","msg":"Stopping further Flow Control ticket acquisitions."}
+{"t":{"$date":"2024-02-11T16:09:34.560-08:00"},"s":"I",  "c":"NETWORK",  "id":4784918, "ctx":"initandlisten","msg":"Shutting down the ReplicaSetMonitor"}
+{"t":{"$date":"2024-02-11T16:09:34.561-08:00"},"s":"I",  "c":"SHARDING", "id":4784921, "ctx":"initandlisten","msg":"Shutting down the MigrationUtilExecutor"}
+{"t":{"$date":"2024-02-11T16:09:34.562-08:00"},"s":"I",  "c":"ASIO",     "id":22582,   "ctx":"MigrationUtil-TaskExecutor","msg":"Killing all outstanding egress activity."}
+{"t":{"$date":"2024-02-11T16:09:34.562-08:00"},"s":"I",  "c":"COMMAND",  "id":4784923, "ctx":"initandlisten","msg":"Shutting down the ServiceEntryPoint"}
+{"t":{"$date":"2024-02-11T16:09:34.562-08:00"},"s":"I",  "c":"CONTROL",  "id":4784928, "ctx":"initandlisten","msg":"Shutting down the TTL monitor"}
+{"t":{"$date":"2024-02-11T16:09:34.562-08:00"},"s":"I",  "c":"CONTROL",  "id":6278511, "ctx":"initandlisten","msg":"Shutting down the Change Stream Expired Pre-images Remover"}
+{"t":{"$date":"2024-02-11T16:09:34.562-08:00"},"s":"I",  "c":"CONTROL",  "id":4784929, "ctx":"initandlisten","msg":"Acquiring the global lock for shutdown"}
+{"t":{"$date":"2024-02-11T16:09:34.563-08:00"},"s":"I",  "c":"-",        "id":4784931, "ctx":"initandlisten","msg":"Dropping the scope cache for shutdown"}
+{"t":{"$date":"2024-02-11T16:09:34.563-08:00"},"s":"I",  "c":"CONTROL",  "id":20565,   "ctx":"initandlisten","msg":"Now exiting"}
+{"t":{"$date":"2024-02-11T16:09:34.563-08:00"},"s":"D1", "c":"EXECUTOR", "id":23105,   "ctx":"OCSPManagerHTTP-0","msg":"Shutting down thread","attr":{"threadName":"OCSPManagerHTTP-0","poolName":"OCSPManagerHTTP"}}
+{"t":{"$date":"2024-02-11T16:09:34.563-08:00"},"s":"I",  "c":"CONTROL",  "id":8423404, "ctx":"initandlisten","msg":"mongod shutdown complete","attr":{"Summary of time elapsed":{"Statistics":{"Enter terminal shutdown":"0 ms","Step down the replication coordinator for shutdown":"2 ms","Time spent in quiesce mode":"0 ms","Shut down FLE Crud subsystem":"1 ms","Shut down MirrorMaestro":"0 ms","Shut down WaitForMajorityService":"0 ms","Shut down the transport layer":"0 ms","Shut down the global connection pool":"0 ms","Shut down the flow control ticket holder":"1 ms","Shut down the replica set monitor":"0 ms","Shut down the migration util executor":"1 ms","Shut down the TTL monitor":"0 ms","Shut down expired pre-images and documents removers":"0 ms","Wait for the oplog cap maintainer thread to stop":"0 ms","Shut down full-time data capture":"0 ms","shutdownTask total elapsed time":"7 ms"}}}}
+{"t":{"$date":"2024-02-11T16:09:34.563-08:00"},"s":"I",  "c":"CONTROL",  "id":23138,   "ctx":"initandlisten","msg":"Shutting down","attr":{"exitCode":100}}
+
+C:\MongoDB\bin>mongod.exe -version
+db version v7.0.5
+Build Info: {
+    "version": "7.0.5",
+    "gitVersion": "7809d71e84e314b497f282ea8aa06d7ded3eb205",
+    "modules": [],
+    "allocator": "tcmalloc",
+    "environment": {
+        "distmod": "windows",
+        "distarch": "x86_64",
+        "target_arch": "x86_64"
+    }
+}
+
+C:\MongoDB\bin>mongod.exe --version
+db version v7.0.5
+Build Info: {
+    "version": "7.0.5",
+    "gitVersion": "7809d71e84e314b497f282ea8aa06d7ded3eb205",
+    "modules": [],
+    "allocator": "tcmalloc",
+    "environment": {
+        "distmod": "windows",
+        "distarch": "x86_64",
+        "target_arch": "x86_64"
+    }
+}
+
+C:\MongoDB\bin>npm -v
+10.2.4
+
+C:\MongoDB\bin>node -v
+v20.11.0
+
+C:\MongoDB\bin>mkdir MERN
+
+C:\MongoDB\bin>cd MERN
+
+C:\MongoDB\bin\MERN>mkdir FirstRest
+
+C:\MongoDB\bin\MERN>cd FirstRest
+
+C:\MongoDB\bin\MERN\FirstRest>nmp init
+'nmp' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\MongoDB\bin\MERN\FirstRest>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (firstrest)
+version: (1.0.0)
+description: part3
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: Alex P
+license: (ISC)
+About to write to C:\MongoDB\bin\MERN\FirstRest\package.json:
+
+{
+  "name": "firstrest",
+  "version": "1.0.0",
+  "description": "part3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex P",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+npm notice
+npm notice New minor version of npm available! 10.2.4 -> 10.4.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.4.0
+npm notice Run npm install -g npm@10.4.0 to update!
+npm notice
+
+C:\MongoDB\bin\MERN\FirstRest>npm install express --save
+
+added 63 packages, and audited 64 packages in 2s
+
+11 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\MongoDB\bin\MERN\FirstRest>dir
+ Volume in drive C has no label.
+ Volume Serial Number is CE4D-884B
+
+ Directory of C:\MongoDB\bin\MERN\FirstRest
+
+02/11/2024  04:15 PM    <DIR>          .
+02/11/2024  04:15 PM    <DIR>          ..
+02/11/2024  04:15 PM               357 index.js
+02/11/2024  04:14 PM    <DIR>          node_modules
+02/11/2024  04:14 PM            24,947 package-lock.json
+02/11/2024  04:14 PM               266 package.json
+               3 File(s)         25,570 bytes
+               3 Dir(s)  98,205,265,920 bytes free
+
+C:\MongoDB\bin\MERN\FirstRest>node index
+Running FirstRest on Port 8080
+^C
+C:\MongoDB\bin\MERN\FirstRest>node index
+C:\MongoDB\bin\MERN\FirstRest\index.js:6
+app.use('/api', apiRoutes)
+^
+
+ReferenceError: Cannot access 'app' before initialization
+    at Object.<anonymous> (C:\MongoDB\bin\MERN\FirstRest\index.js:6:1)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+
+Node.js v20.11.0
+
+C:\MongoDB\bin\MERN\FirstRest>node index
+Running FirstRest on Port 8080
+^C
+C:\MongoDB\bin\MERN\FirstRest>node index
+Running FirstRest on Port 8080
+^C
+C:\MongoDB\bin\MERN\FirstRest>npm install -g nodemon
+
+added 33 packages in 2s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+C:\MongoDB\bin\MERN\FirstRest>nodemon index
+[nodemon] 3.0.3
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node index.js`
+Running FirstRest on Port 8080

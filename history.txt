@@ -1,0 +1,371 @@
+C:\Users\ampshock>curl --header "Content-Type: application/json" --request POST --data "{\"name\":\"xyz\"}" http://localhost:8080/tourapi/tours
+{"name":"xyz","_id":"65d21af95e94e9c159255280","__v":0}
+C:\Users\ampshock>
+
+
+C:\MongoDB\bin\MERN\SecondRest>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (secondrest)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords: mongoose mongo node
+author: Alex P
+license: (ISC)
+About to write to C:\MongoDB\bin\MERN\SecondRest\package.json:
+
+{
+  "name": "secondrest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongoose",
+    "mongo",
+    "node"
+  ],
+  "author": "Alex P",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+
+C:\MongoDB\bin\MERN\SecondRest>npm i express
+
+added 64 packages, and audited 65 packages in 2s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\MongoDB\bin\MERN\SecondRest>npm i mongoose
+
+added 20 packages, and audited 85 packages in 4s
+
+13 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\MongoDB\bin\MERN\SecondRest>npm i body-parser
+
+added 2 packages, changed 2 packages, and audited 87 packages in 637ms
+
+13 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\MongoDB\bin\MERN\SecondRest>npm run dev
+npm ERR! Missing script: "dev"
+npm ERR!
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: C:\Users\ampshock\AppData\Local\npm-cache\_logs\2024-02-18T14_29_58_733Z-debug-0.log
+
+C:\MongoDB\bin\MERN\SecondRest>npm run dev
+
+> secondrest@1.0.0 dev
+> nodemon server.js
+
+[nodemon] 3.0.3
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node server.js`
+Application Started on port 8080
+^C^CTerminate batch job (Y/N)? y
+
+C:\MongoDB\bin\MERN\SecondRest>npm i body-parser
+
+up to date, audited 87 packages in 642ms
+
+13 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\MongoDB\bin\MERN\SecondRest>npm run dev
+
+> secondrest@1.0.0 dev
+> nodemon server.js
+
+[nodemon] 3.0.3
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node server.js`
+C:\MongoDB\bin\MERN\SecondRest\server.js:6
+app.use('/productapi',productRouter);
+                      ^
+
+ReferenceError: productRouter is not defined
+    at Object.<anonymous> (C:\MongoDB\bin\MERN\SecondRest\server.js:6:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+
+Node.js v20.11.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+C:\MongoDB\bin\MERN\SecondRest\server.js:6
+app.use('/productapi',productRouter);
+                      ^
+
+ReferenceError: productRouter is not defined
+    at Object.<anonymous> (C:\MongoDB\bin\MERN\SecondRest\server.js:6:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+
+Node.js v20.11.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Application Started on port 8080
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Application Started on port 8080
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+C:\MongoDB\bin\MERN\SecondRest\tourController.js:7
+var tourSchema = new mongodb.Schema({
+                 ^
+
+ReferenceError: mongodb is not defined
+    at Object.<anonymous> (C:\MongoDB\bin\MERN\SecondRest\tourController.js:7:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\MongoDB\bin\MERN\SecondRest\server.js:5:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+
+Node.js v20.11.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Application Started on port 8080
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Application Started on port 8080
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+C:\MongoDB\bin\MERN\SecondRest\tourController.js:19
+rounter.post('/tours',(req,res)={
+                      ^^^^^^^^^
+
+SyntaxError: Invalid left-hand side in assignment
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\MongoDB\bin\MERN\SecondRest\server.js:5:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+
+Node.js v20.11.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+C:\MongoDB\bin\MERN\SecondRest\tourController.js:19
+rounter.post('/tours',(req,res)={
+                      ^^^^^^^^^
+
+SyntaxError: Invalid left-hand side in assignment
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\MongoDB\bin\MERN\SecondRest\server.js:9:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+
+Node.js v20.11.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+C:\MongoDB\bin\MERN\SecondRest\tourController.js:19
+rounter.post('/tours',(req,res)={
+                      ^^^^^^^^^
+
+SyntaxError: Invalid left-hand side in assignment
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\MongoDB\bin\MERN\SecondRest\server.js:9:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+
+Node.js v20.11.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+C:\MongoDB\bin\MERN\SecondRest\tourController.js:19
+rounter.post('/tours',(req,res)=>{
+^
+
+ReferenceError: rounter is not defined
+    at Object.<anonymous> (C:\MongoDB\bin\MERN\SecondRest\tourController.js:19:1)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\MongoDB\bin\MERN\SecondRest\server.js:9:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+
+Node.js v20.11.0
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Application Started on port 8080
+SyntaxError: Unexpected token ''', "'{name:xyz"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:169:10)
+    at parse (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:86:15)
+    at C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:238:16)
+    at done (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+SyntaxError: Unexpected token ''', "'{name:xyz"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:169:10)
+    at parse (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:86:15)
+    at C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:238:16)
+    at done (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+SyntaxError: Expected property name or '}' in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:238:16)
+    at done (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+SyntaxError: Expected property name or '}' in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:238:16)
+    at done (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+SyntaxError: Expected property name or '}' in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:238:16)
+    at done (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+SyntaxError: Expected property name or '}' in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:238:16)
+    at done (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+SyntaxError: Expected property name or '}' in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:238:16)
+    at done (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+SyntaxError: Expected property name or '}' in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:238:16)
+    at done (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+SyntaxError: Unexpected token ''', "'{name:xyz}'" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:169:10)
+    at parse (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:86:15)
+    at C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:238:16)
+    at done (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+SyntaxError: Unexpected token ''', "'{"name":"xyz"}'" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:169:10)
+    at parse (C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\types\json.js:86:15)
+    at C:\MongoDB\bin\MERN\SecondRest\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:238:16)
+    at done (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\MongoDB\bin\MERN\SecondRest\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
