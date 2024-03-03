@@ -1,0 +1,58 @@
+<p>keyvault-list works!</p>
+
+<div>
+    <h1>Add a New Key</h1>
+    <p>Keyname</p>
+   <input [(ngModel)]="newKeyvaultname" placeholder="Key Name">
+   <p>token</p>
+   <input [(ngModel)]="newToken" placeholder="Token">
+   <p>key</p>
+   <input [(ngModel)]="newKey" placeholder="Key">
+   <button (click)="addKey()">Add</button>
+  
+</div>
+<div>
+    <h1>Retrieve Key</h1>
+    <p>Key ID</p>
+   <input [(ngModel)]="keyId" placeholder="Key ID">
+   <button (click)="getKey()">get</button>
+  
+</div>
+
+<div>
+    <h1>Update a New Key</h1>
+    <p>Keyname</p>
+   <input [(ngModel)]="newKeyvaultname" placeholder="Key Name">
+   <p>token</p>
+   <input [(ngModel)]="newToken" placeholder="Token">
+   <p>key</p>
+   <input [(ngModel)]="newKey" placeholder="Key">
+   <button (click)="updateKey()">Add</button>
+  
+</div>
+
+<div>
+    <h1>Delete a Key</h1>
+    <p>Key ID</p>
+    <input [(ngModel)]="keyId" placeholder="Key ID">
+   <button (click)="deleteKey()">Add</button>
+  
+</div>
+<div>
+    <h1>Retrieve Key Count</h1>
+    <p>Total Keys</p>
+    <button (click)="getTotal()">See TotalKeys</button>
+  
+</div>
+<br>
+<div>
+    <h1>see Key Indexes</h1>
+    <p>Key ID</p>
+   <button (click)="getIndexes()">See MongoDB metadata</button>
+  
+</div>
+<br>
+
+<!--
+    test
+-->
