@@ -1,0 +1,42 @@
+
+<p>{{tour.name}}</p>
+<p>{{tour.age}}</p>
+<div>
+    <h1>Add a New Cyclist</h1>
+    <p>name</p>
+   <input [(ngModel)]="newTourName" placeholder="Cyclist Name">
+   <p>age</p>
+   <input [(ngModel)]="newTourAge" placeholder="Cyclist age">
+   <p>points</p>
+   <input [(ngModel)]="newTourPoints" placeholder="Cyclist points">
+   <p>stageone</p>
+   <input [(ngModel)]="newStageOneMinutes" placeholder="Cyclist">
+   <p>stageonepoints</p>
+   <input [(ngModel)]="newStageOnePoints" placeholder="Cyclist points">
+   <button (click)="sendDataToAPI()">Add</button>
+  
+</div>
+<br>
+
+<div>
+    <h1>Add a Tour to a Cyclist</h1>
+    <h3>if you have the MongoDB ID</h3>
+    <p>name</p>
+   <input [(ngModel)]="cyclistId" placeholder="Cyclist Name">
+   <p>age</p>
+   <input [(ngModel)]="newStageOneMinutes" placeholder="Cyclist age">
+   <p>points</p>
+   <input [(ngModel)]="newStageOnePoints" placeholder="Cyclist points">
+   <button (click)="updateDataToAPI()">Add</button>
+  
+</div>
+
+<!--
+    
+<ul>
+    <li *ngFor="let cyclist of tours; index as i">
+        {{cyclist.name}} {{cyclist.age}}
+        <button (click)="deleteCyclist(i)">Delete</button>
+    </li>
+</ul>
+-->
